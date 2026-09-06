@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hydra.samsung.sm-x400.termux-x11",
+  "optional": true,
+  "target": {
+    "manufacturer": "Samsung",
+    "model": "SM-X400",
+    "android": 16,
+    "display": ":1"
+  },
+  "dependencies": {
+    "androidApp": "com.termux.x11",
+    "termuxCommand": "termux-x11",
+    "x11RepoRequired": true
+  },
+  "behavior": {
+    "ownsStartedPidOnly": true,
+    "broadPkill": false,
+    "legacyDrawingDefault": false,
+    "forceBgraDefault": false,
+    "requiredForHydraCandidate": false
+  },
+  "security": {
+    "privilegeBroker": false,
+    "rootRequired": false,
+    "shizukuRequired": false,
+    "secretStorage": false
+  }
+}
