@@ -7,17 +7,17 @@ The default display is `:1`, matching the existing Hydra/VNC display convention.
 ## Commands
 
 ```bash
-./hydra-sm-x400/hydra-x11.sh status
-./hydra-sm-x400/hydra-x11.sh start
-./hydra-sm-x400/hydra-x11.sh open
-./hydra-sm-x400/hydra-x11.sh stop
+bash hydra-sm-x400/hydra-x11.sh status
+bash hydra-sm-x400/hydra-x11.sh start
+bash hydra-sm-x400/hydra-x11.sh open
+bash hydra-sm-x400/hydra-x11.sh stop
 ```
 
 Optional compatibility flags:
 
 ```bash
-HYDRA_X11_LEGACY=1 ./hydra-sm-x400/hydra-x11.sh start
-HYDRA_X11_FORCE_BGRA=1 ./hydra-sm-x400/hydra-x11.sh start
+HYDRA_X11_LEGACY=1 bash hydra-sm-x400/hydra-x11.sh start
+HYDRA_X11_FORCE_BGRA=1 bash hydra-sm-x400/hydra-x11.sh start
 ```
 
 ## Ownership rule
